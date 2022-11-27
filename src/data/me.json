@@ -1,0 +1,26 @@
+{
+  "name": "Thimira Nirmal",
+  "handle": "timnirmal",
+  "email": "timnirmal@gmail.com",
+  "bio": "I am a software engineer and a writer. I write about software development, technology, and life.",
+  "social": {
+    "website": {
+      "url": "https://timnirmal.me",
+      "title": "timnirmal.me"
+    },
+    "twitter": {
+      "url": "https://twitter.com/timnirmal",
+      "title": "@timnirmal"
+    },
+    "github": {
+      "url": "https://github.com/timnirmal",
+      "title": "github.com/timnirmal"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/thimiranirmal/",
+      "title": "linkedin.com/in/thimiranirmal/"
+    }
+  },
+  "photo": "https://timnirmal.me/images/profile.jpg",
+  "phone": "+9477 123 4567"
+}

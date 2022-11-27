@@ -1,0 +1,25 @@
+[
+  {
+    "section": {
+      "name": "Web Developer \uD83E\uDDD1\u200D\uD83D\uDCBB",
+      "subsection": [
+        {
+          "name": "Frontend",
+          "tech": [
+            "Next,js",
+            "TypeScript",
+            "Tailwind"
+          ]
+        },
+        {
+          "name": "Backend",
+          "tech": [
+            "Node.js",
+            "Express",
+            "MongoDB"
+          ]
+        }
+      ]
+    }
+  }
+]
