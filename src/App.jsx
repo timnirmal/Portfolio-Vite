@@ -1,21 +1,33 @@
 import {useState} from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+
+function SocialMedia() {
+    return (
+        <div className="social-media">
+        </div>
+    )
+}
 
 function App() {
     const [count, setCount] = useState(0)
 
     return (
         <div className="App">
-            <div>
-                <a href="https://vitejs.dev" target="_blank">
-                    <img src="/vite.svg" className="logo" alt="Vite logo"/>
-                </a>
-                <a href="https://reactjs.org" target="_blank">
-                    <img src={reactLogo} className="logo react" alt="React logo"/>
-                </a>
-            </div>
-            <h1>Vite + React</h1>
+            {/*<div>*/}
+            {/*    <a href="https://vitejs.dev" target="_blank">*/}
+            {/*        <img src="/vite.svg" className="logo" alt="Vite logo"/>*/}
+            {/*    </a>*/}
+            {/*    <a href="https://reactjs.org" target="_blank">*/}
+            {/*        <img src={reactLogo} className="logo react" alt="React logo"/>*/}
+            {/*    </a>*/}
+            {/*</div>*/}
+            <h1>Hello I’m 👋</h1>
+            <h1>Thimira Nirmal</h1>
+            <h1>Web Developer 🧑‍💻</h1>
+            <h1>Data Science 📈</h1>
+
+            <SocialMedia/>
+
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
