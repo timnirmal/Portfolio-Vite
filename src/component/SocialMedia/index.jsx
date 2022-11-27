@@ -12,38 +12,36 @@ import {FaLinkedin} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
 import {FaFacebook} from "react-icons/fa";
 import {AiFillMail as FaEmail} from "react-icons/ai"
+import SMIcon from "./SMIcon.jsx";
 
 function SocialMedia() {
-    console.log(me.social.github.url)
 
     return (
-        <div className="social-media">
+        <div className="social-media p-8">
             {me.social.github && (
-                <a href={me.social.github.url} target="_blank" rel="noreferrer"
-                   className="inline-block"
-                >
-                    <FaGithub className="text-5xl"/>
-                </a>
+                <SMIcon url={me.social.github.url}>
+                    <FaGithub/>
+                </SMIcon>
             )}
             {me.social.linkedin && (
-                <a href={me.social.linkedin.url} target="_blank" rel="noreferrer" className="inline-block">
-                    <FaLinkedin className="text-5xl"/>
-                </a>
+                <SMIcon url={me.social.linkedin.url}>
+                    <FaLinkedin/>
+                </SMIcon>
             )}
             {me.social.twitter && (
-                <a href={me.social.twitter.url} target="_blank" rel="noreferrer" className="inline-block">
-                    <FaTwitter className="text-5xl"/>
-                </a>
+                <SMIcon url={me.social.twitter.url}>
+                    <FaTwitter/>
+                </SMIcon>
             )}
             {me.social.facebook && (
-                <a href={me.social.facebook.url} target="_blank" rel="noreferrer" className="inline-block">
-                    <FaFacebook className="text-5xl"/>
-                </a>
+                <SMIcon url={me.social.facebook.url}>
+                    <FaFacebook/>
+                </SMIcon>
             )}
             {me.email && (
-                <a href={`mailto:${me.email}`} target="_blank" rel="noreferrer" className="inline-block">
-                    <FaEmail className="text-5xl"/>
-                </a>
+                <SMIcon url={`mailto:${me.email}`}>
+                    <FaEmail/>
+                </SMIcon>
             )}
 
         </div>
